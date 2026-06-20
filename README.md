@@ -53,9 +53,7 @@ A full-stack **AI Voice Agent** platform built with **Next.js** (frontend) and *
 
 ### Frontend
 
-```bash
-git clone https://github.com/HaMZAAsif043/voxora-ai-voice.git
-cd voxora-ai-voice
+
 
 npm install
 npm run dev
@@ -107,5 +105,4 @@ voxora-ai-voice/
 | `/menu` | Menu items and category management |
 
 ---
-
-Built at [Voxora AI](https://voxora.ai) — AI-powered business automation
+Voxora AI — AI-powered business automation

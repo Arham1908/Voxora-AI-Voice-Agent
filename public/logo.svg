@@ -1,0 +1,18 @@
+<svg viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg" width="200" height="200">
+  <!-- Define gradients -->
+  <defs>
+    <linearGradient id="tealGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#20B2AA;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#17A697;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  
+  <!-- Background -->
+  <rect width="200" height="200" fill="transparent"/>
+  
+  <!-- Text "V" in Teal -->
+  <text x="70" y="140" font-family="Arial, sans-serif" font-size="110" font-weight="bold" text-anchor="middle" fill="url(#tealGrad)" letter-spacing="5">V</text>
+  
+  <!-- Text "A" in Dark Gray -->
+  <text x="140" y="140" font-family="Arial, sans-serif" font-size="110" font-weight="bold" text-anchor="middle" fill="#4A4A4A" letter-spacing="5">A</text>
+</svg>

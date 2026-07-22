@@ -48,6 +48,9 @@ export async function fetchWithAuth(endpoint: string, options: RequestInit = {})
         }
 
         if (response.status === 401) {
+            if (typeof window !== "undefined") {
+                localStorage.removeItem("access_token");
+            }
             throw new Error(errorMessage || "Unauthorized. Please sign in or provide a valid API token.");
         }
         throw new Error(errorMessage);
